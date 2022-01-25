@@ -1,0 +1,54 @@
+.grid {
+    display: grid;
+    grid-template-columns: 200px 1fr 200px;
+    grid-template-rows: auto 1fr auto;
+    gap: 5px;
+    height: 100vh;
+}
+
+.navgrid {
+    display: grid;
+    grid-template-columns: 125px 125px 125px 200px;
+    margin:5px;
+}
+
+body {
+    background: #fff1e1;
+    /* margin: 10px; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+article {
+    /* background: #fff1e1; */
+    margin: 10px;
+}
+
+header, footer {
+    grid-column: 1/4;
+    /* border-style: solid; */
+    background: #ecdbcb; 
+}
+
+.headshot {
+    padding: 5px;
+    float: left;
+}
+
+button {
+    margin: 2px;
+}
+
+a:link {
+    text-decoration: none;
+    font-weight: bold;
+    color:#3f6928;
+}
+
+a:visited {
+    color: #3f6928;
+}
+
+a:hover {
+    color:black;
+    text-decoration: underline;
+}
