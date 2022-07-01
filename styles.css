@@ -1,4 +1,13 @@
-.grid {
+body {
+    min-height:100vh;
+    padding-top: 5rem;
+}
+
+.flex-fill {
+    flex:1 1 auto;
+}
+
+/* .grid {
     display: grid;
     grid-template-columns: 200px 1fr 200px;
     grid-template-rows: auto 1fr auto;
@@ -14,18 +23,15 @@
 
 body {
     background: #fff1e1;
-    /* margin: 10px; */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 article {
-    /* background: #fff1e1; */
     margin: 10px;
 }
 
 header, footer {
     grid-column: 1/4;
-    /* border-style: solid; */
     background: #ecdbcb; 
 }
 
@@ -55,4 +61,4 @@ a:hover {
 
 li {
     margin: 4px;
-}
+} */
