@@ -3,65 +3,59 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <script async defer src="https://buttons.github.io/buttons.js"></script>
-    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <meta name="description" content="Will Robinson - journalist, developer, data scientist.">
+    <meta name="author" content="Will Robinson">
 
     <title>Will Robinson</title>
 
-    <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/starter-template/">
-
-    <!-- Bootstrap core CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-
-    <!-- Custom styles -->
     <link rel="stylesheet" href="styles.css">
+
+    <!-- Roboto font-family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 
   </head>
 
-  <body class="d-flex flex-column">
-    <main role="main" class="container flex-fill">
-        <nav class="navbar navbar-dark bg-dark fixed-top">
-            <div class="container">
-                <a href="./index.html" class="navbar-brand">Home</a>
-                <a href="pages/journalist.html" class="navbar-brand">Journalist</a>
-                <a href="pages/developer.html" class="navbar-brand">Developer</a>
-                <a href="pages/dataScientist.html" class="navbar-brand">Data Scientist</a>
-            </div>
-        </nav>
-      <div class="row">
-        <div class="col">
-            <img src="./headshot_thumbnail.jpg" width="200px"/>
-        </div>
-        <div class="col-8">
-            <h1>Will Robinson</h1>
-            <p>Will Robinson is an experienced editor and journalist specializing in data-heavy content for business audiences. He is an accomplished investigative reporter, has received national awards from journalism associations and has covered real estate, logistics, technology, finance, energy and economic development beats. He is skilled in data collection, scraping, cleaning, visualization, analysis and storytelling and has demonstrated ability using Python, SQL, Git, Excel and Tableau.</p>
-            <p>He graduated magna cum laude from the University of Georgia Honors College with degrees in journalism and international affairs. Since graduating, he has earned credentials from Springboard, Coursera (curricula by University of Michigan and IBM), edX (curriculum by MIT), Udacity and Codecademy. He is now enrolled in the MITxPro Full Stack Developer program, where he is acquiring skills in HTML, JavaScript, CSS and more.</p>
-            <button onclick="window.location.href='https://www.linkedin.com/in/williamarobinson3';">
-                Connect @WilliamARobinson3
-            </button>
-            <br>
-            <a href="https://twitter.com/WRob_152?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @WRob_152</a>
-            <br>
-            <a class="github-button" href="https://github.com/WillRobinson152" aria-label="Follow @WillRobinson152 on GitHub">Follow @WillRobinson152</a>
-            <p>Email: robinsonwilliamarthur@gmail.com</p>
-        </div>
+  <body>
+    <header>
+      <nav class="navbar">
+        <ul class="navbuttons">
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="pages/journalist.html">Journalist</a></li>
+          <li><a href="pages/developer.html">Developer</a></li>
+          <li><a href="pages/dataScientist.html">Data Scientist</a></li>
+        </ul>
+      </nav>
+      <h1>Will Robinson</h1>
+    </header>
+
+    <main role="main">
+        <article>
+          <img src="./headshot_thumbnail_square.jpg" width="200px" class="headshot"/>
+          <p>Will Robinson is an experienced editor and journalist specializing in data-heavy content for business audiences. He is an accomplished investigative reporter, has received national awards from journalism associations and has covered real estate, logistics, technology, finance, energy and economic development beats. He is skilled in data collection, scraping, cleaning, visualization, analysis and storytelling and has demonstrated ability using Python, SQL, Git, Excel and Tableau.</p>
+          <p>He graduated magna cum laude from the University of Georgia Honors College with degrees in journalism and international affairs. Since graduating, he has earned credentials from Springboard, Coursera (curricula by University of Michigan and IBM), edX (curriculum by MIT), Udacity and Codecademy. He is now enrolled in the MITxPro Full Stack Developer program, where he is acquiring skills in HTML, JavaScript, CSS and more.</p>
+          <button href="https://www.linkedin.com/in/williamarobinson3" class="social">
+            Connect on LinkedIn
+          </button>
+          <br>
+          <button href="https://twitter.com/WRob_152?ref_src=twsrc%5Etfw" class="social">
+            Connect on Twitter
+          </button>
+          <br>
+          <button href="https://github.com/WillRobinson152">
+            Follow on GitHub
+          </button>
+          <br>
+          <p>Email: robinsonwilliamarthur@gmail.com</p>
+        </article>
       </div>
       
-    </main><!-- /.container -->
-    <footer>
-        <!-- <nav class="navbar navbar-dark bg-dark text-center bottom"> -->
-          <div class="container-fluid text-white bg-dark text-center">
-              © 2022 Will Robinson
-          </div>
-          <!-- </nav> -->
-      </footer>
-    
+    </main>
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+      <footer>
+          <p>© 2022 Will Robinson</p>
+      </footer>
+
   </body>
 </html>
