@@ -4,10 +4,25 @@
 
 body {
 	background: #edccc4;
+	margin: 0px;
+	padding: 0px;
+}
+
+main {
+	padding-top: 75px;
+	padding-left: 10%;
+	padding-right: 10%;
 }
 
 .headshot {
     border-radius: 50%;
+}
+
+header {
+	position: fixed;
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
 }
 
 nav ul {
@@ -60,10 +75,6 @@ li a:hover {
 	
 }
 
-header {
-	margin-left: 14px;
-}
-
 article {
 	text-align: left;
 	margin: 15px;
@@ -112,4 +123,81 @@ footer p {
 
 .social:hover {
 	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+.white {
+	background-color: white;
+}  
+
+.gray {
+	background-color: lightgray;
+}
+
+.collection {
+	border: solid 1px black;
+	padding: 20px 50px;
+	text-align: left;
+	margin: 0px;
+	font-size: 15px;
+	line-height: 1;
+}
+
+.collection h4 {
+	padding: 0px;
+	padding-top: 8px;
+	margin: 0px;
+	line-height: 0;
+}
+
+.collection li {
+	list-style-type: circle;
+}
+
+.collection li a {
+	display: inline;
+	color: black;
+	text-align: left;
+	padding: 0px 0px;
+	text-decoration: none;
+}
+
+.collection li a:hover {
+	background-color: white;
+}
+
+#award-winners h2 {
+	margin: 0px;
+	padding: 5px;
+}
+
+.articles {
+	padding: 5px 5px;
+}
+
+th {
+	border: 1px solid black;
+	text-align: center;
+	font-size: 18px;
+	background-color: #132B2B;
+	color: white;
+	padding: 5px;
+}
+
+table {
+	margin: 20px auto;
+	border-collapse: collapse;
+	width: 80%;
+}
+
+tr {
+	border: 1px solid black;
+}
+
+.left {
+	width: 150px;
+	text-align: center;
+}
+
+#top, #award-winners, #investigations, #CSX {
+	scroll-margin-top: 75px;
   }
