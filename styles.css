@@ -23,6 +23,7 @@ header {
 	width: 100%;
 	padding: 0px;
 	margin: 0px;
+	z-index: 1;
 }
 
 nav ul {
@@ -39,7 +40,7 @@ nav li {
 	display: table-cell
 }
 
-li a {
+li a:not(#eiaweekly, .nohover) {
 	display: block;
 	color: white;
 	text-align: center;
@@ -47,7 +48,7 @@ li a {
 	text-decoration: none;
 }
 
-li a:hover {
+li a:not(#eiaweekly, .nohover):hover {
 	background-color: #132B2B;
 }
 
@@ -200,4 +201,11 @@ tr {
 
 #top, #award-winners, #investigations, #CSX {
 	scroll-margin-top: 75px;
-  }
+}
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
