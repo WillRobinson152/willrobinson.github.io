@@ -14,6 +14,11 @@ main {
 	padding-right: 10%;
 }
 
+a:link, a:visited {
+	color: #315B2A;
+	text-decoration: none;
+}
+
 .headshot {
     border-radius: 50%;
 }
@@ -148,22 +153,6 @@ footer p {
 	padding-top: 8px;
 	margin: 0px;
 	line-height: 0;
-}
-
-.collection li {
-	list-style-type: circle;
-}
-
-.collection li a {
-	display: inline;
-	color: black;
-	text-align: left;
-	padding: 0px 0px;
-	text-decoration: none;
-}
-
-.collection li a:hover {
-	background-color: white;
 }
 
 #award-winners h2 {
